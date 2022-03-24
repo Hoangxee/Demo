@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<!--<suite name="Suite" verbose="1">-->
+<!--    <test name="FirstTest">-->
+<!--        <classes>-->
+<!--            <class name="Demo.xmlFeed" />-->
+<!--        </classes>-->
+<!--    </test>-->
+<!--</suite>-->
+
+<suite name="Demo_addFeed" verbose="1">
+    <test name="FirstTest">
+        <classes>
+            <class name="Demo.xmlFeed"/>
+        </classes>
+    </test>
+<!--    <test name="FirstTest">-->
+<!--        <classes>-->
+<!--            <class name="Demo.xmlFeed">-->
+<!--                <methods>-->
+<!--                    <include name="openApp" />-->
+<!--                    <include name="verify" />-->
+<!--&lt;!&ndash;                    <include name="delete" />&ndash;&gt;-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--        </classes>-->
+<!--    </test>-->
+</suite>
